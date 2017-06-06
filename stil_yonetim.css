@@ -1,0 +1,125 @@
+﻿@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #B0D0B8;
+}
+#dis_alan {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+#banner {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+	height: 40px;
+	width: 960px;
+	padding-top: 10px;
+	
+	
+}
+#navigasyon {
+	height: 30px;
+	width: 960px;
+	background-image: url(image/bg_navigasyon.gif);
+}
+#adminyonetimi {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    width: auto;
+    margin-left: 25px;
+    padding-top: 5px;
+    float: left;
+}
+#grupyonetimi {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    width: auto;
+    margin-left: 25px;
+    padding-top: 5px;
+    float: left;
+}
+#adsoyad {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 20px;
+	width: auto;
+    padding-right: 15px;
+	padding-top: 5px;
+	float: right;
+}
+#yan_menu {
+	float: left;
+	height: 20px;
+	width: auto;
+	margin-right: 50px;
+	padding-top: 5px;
+    
+}
+#gorev {
+	float: right;
+	height: 20px;
+	width: auto;
+	margin-right: 15px;
+	padding-top: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #900;
+}
+#icerik_alani {
+	height: auto;
+	width: 960px;
+}
+#menuler {
+	float: left;
+	height: auto;
+	width: 215px;
+	background-image: url(image/bg_yanmenu.gif);
+    background: #9CF;
+}
+#icerik {
+    min-height: 350px;
+	width: 740px;
+	float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    background: lightgrey;
+    box-shadow: 0  5px 5px #1c3564;
+}
+#menuler ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#menuler ul li {
+}
+#menuler ul li a {
+	display: block;
+	width: 160px;
+	margin-left: 25px;
+	text-align: center;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	background-image: url(image/bt_menu.gif);
+	color: #FFF;
+}
+#menuler ul li a:hover {
+	color: #333;
+
+}
+

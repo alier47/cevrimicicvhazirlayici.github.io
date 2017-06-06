@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminYonetimiMaster.master.cs" Inherits="adminpanel_AdminYonetimiMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+<link href="stil_yonetim.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="dis_alan">
+  <div id= "banner"> ADMİN PANELİ </div>
+	<div id="navigasyon">
+	    <div id="adminyonetimi">
+	        <a href="AdminYonetimi.aspx" style="text-decoration: none"> Admin Yönetimi </a>
+	    </div>
+    <div id="grupyonetimi">
+        <a href="GrupYonetimi.aspx" style="text-decoration: none"> Grup Yönetimi </a>
+    </div>
+        
+    <div id="gorev">Görev: Admin</div>
+        <div id="adsoyad">Ad Soyad: Ali ER</div>
+    </div>
+    <div id="icerik_alani">
+    <div id="menuler">
+        <ul>
+        <li><a href="#">ANASAYFA</a></li>
+         <li><a href="CvListesi.aspx">CV LİSTESİ</a></li>
+         <li><a href="UyeListesi.aspx">Üye LİSTESİ</a></li>
+         <li><a href="İsVerenListesi.aspx">İŞVEREN LİSTESİ</a></li>
+          <li><a href="YoneticiListesi.aspx">YÖNETİCİ LİSTESİ</a></li>
+         <li><a href="S.S.S.aspx">S.S.S</a></li>
+         <li><a href="ilanlar.aspx">İLANLAR</a></li>
+          <li><a href="KullaniciAra.aspx">KULLANICI ARA</a></li>
+      </ul>
+    </div>
+    <div id="icerik"> 
+      <p>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          </asp:ContentPlaceHolder>
+        </p></div>
+  </div>
+</div>
+    </form>
+</body>
+</html>
